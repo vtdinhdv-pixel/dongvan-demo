@@ -1,0 +1,11 @@
+2.  **Lưu file:**
+    *   Nhấn **"Commit changes"** để lưu lại file này vào GitHub.
+
+3.  **Khởi động lại (Re-deploy):**
+    *   Sau khi bạn thêm file này, Streamlit sẽ tự động phát hiện và cài đặt các thư viện liệt kê trong đó.
+    *   Nếu nó không tự chạy lại, hãy quay lại trang quản trị Streamlit Cloud, tìm dự án `dongvan-demo` và nhấn nút **"Re-deploy"** (hoặc chọn "Manage app" rồi chọn "Re-run").
+
+**Giải thích:**
+Khi bạn `import` một thư viện trong Python (`import google.generativeai`), máy tính hoặc server cần phải có sẵn "gói" thư viện đó. `requirements.txt` là danh sách để Streamlit biết nó cần "tải" những gì về trước khi chạy code của bạn.
+
+Sau khi làm xong, lỗi này sẽ biến mất! Bạn hãy thử thực hiện xem nhé.
